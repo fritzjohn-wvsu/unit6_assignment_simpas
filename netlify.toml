@@ -1,0 +1,4 @@
+[build]
+  image = "ghcr.io/netlify/build-image-flutter:latest"
+  command = "bash build.sh"
+  publish = "build/web"
